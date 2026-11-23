@@ -1,0 +1,76 @@
+
+# ==========================================
+# Altium Designer - Git Ignore
+# ==========================================
+
+# Temporary / Backup files
+*.bak
+*.tmp
+*.old
+*.orig
+*~
+*.SchDocPreview
+*.PcbDocPreview
+
+# Auto-generated files
+*.PrjPcbStructure
+*.PrjPcbVariants
+*.PcbLibStructure
+*.SchLibStructure
+
+# History / Recovery
+History/
+__Previews/
+*.LOG
+*.LOG2
+*.DMP
+
+# Output folders
+Project Outputs for *
+Generated/
+Output/
+Outputs/
+
+# Manufacturing outputs (optional)
+# Uncomment if you don't want to version Gerbers
+# *.GTL
+# *.GBL
+# *.GTO
+# *.GBO
+# *.GTS
+# *.GBS
+# *.GTP
+# *.GBP
+# *.GKO
+# *.GM1
+# *.DRL
+# *.REP
+
+# Simulation
+*.sdf
+*.sdb
+*.sdfbak
+
+# Personal workspace / settings
+*.PrjPcbStructure
+*.PrjPcbVariants
+*.workspace
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# Altium local cache
+*.SchDoc~*
+*.PcbDoc~*
+*.PrjPcb~*
+
+# ==========================================
+# Keep important project files tracked:
+# .PrjPcb
+# .SchDoc
+# .PcbDoc
+# .PcbLib
+# .SchLib
+# .IntLib (if required)
+# .OutJob
+# ==========================================
